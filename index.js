@@ -9,11 +9,6 @@ function promptUser() {
   const questions = [
     {
       type: "input",
-      name: "username",
-      message: "What is your GitHub username?",
-    },
-    {
-      type: "input",
       name: "title",
       message: "What is the title of the project?",
     },
@@ -57,6 +52,11 @@ function promptUser() {
       type: "input",
       name: "tests",
       message: "Run test here",
+    },
+    {
+      type: "input",
+      name: "username",
+      message: "What is your GitHub username?",
     },
     {
       type: "input",
